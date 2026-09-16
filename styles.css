@@ -10,13 +10,14 @@ html {
 }
 
 body {
-    background-color: rgba(0, 255, 0, 0.1);;
+    background-color: rgba(0, 255, 0, 0.1);
+    width: 100%;
 }
 
 .first-div {
     background-color: green;
     height: 15vh;
-    width: 100vw;
+    width: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     display: grid;
@@ -31,8 +32,12 @@ body {
 
 .main-div {
     background-color: rgba(0, 255, 0, 0.2);
-    width: 100vw;
-    height: 200vh;
+    width: 100%;
+    height: fit-content;
+}
+
+.introduction {
+    height: fit-content;
 }
 
 .subtitle-handle {
@@ -46,18 +51,20 @@ body {
 
 .subtitle {
     color: white;
-    padding: 1vh 3vw 1vh 3vw
+    padding: 1vh 3vw 1vh 3vw;
+    font-size: 2.8vw
 }
 
 .introduction-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     place-items: center;
     margin-top: 8vh;
 }
 
 .atendimento {
-    background-color: lawngreen;
+    background-color: green;
     width: 30vw;
     height: fit-content;
     border-radius: 20px;
@@ -71,7 +78,8 @@ body {
 }
 
 .especificações {
-    background-color: lawngreen;
+    grid-row: span 2;
+    background-color: green;
     width: 30vw;
     height: fit-content;
     border-radius: 20px;
@@ -97,5 +105,82 @@ body {
     color: white;
     font-size: 2vw;
     padding: 2vw;
+    text-decoration: none;
+    display: block;
 }
 
+.iframe-grmaquinas {
+    width: 35vw;
+    height: 25vw;
+    border-radius: 20px;
+}
+
+.iframe-grmaquinas:hover {
+    scale: 1.1;
+    box-shadow: 0 0 30px 10px white;
+    transition: 250ms ease-in-out;
+}
+
+.specify-1:hover {
+    color: yellow;
+    font-size: 2.05vw
+}
+
+.specify-2:hover {
+    color: yellow;
+    font-size: 2.05vw
+}
+
+.specify-3:hover {
+    color: yellow;
+    font-size: 2.04vw
+}
+
+.quem-somos {
+    margin-top: 5vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    background-color: rgba(15, 70, 50, 1);
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+.qs-h3-handle {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(40, 165, 115, 1);
+    border-radius: 20px;
+}
+
+.qs-h3 {
+    font-size: 5vw;
+    padding: 1vh 2vw 1vh 2vw;
+    color: white
+}
+
+.quem-somos-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80vw;
+    height: fit-content;
+    background-color: rgba(40, 165, 115, 1);
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5vh;
+    gap: 5vh
+}
+
+.p-qs {
+    color: white;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2vw
+}
+
+.first-p-qs {
+    padding-top: 3vh
+}
+
+.last-p-qs {
+    padding-bottom: 3vh;
+}
