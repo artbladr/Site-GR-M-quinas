@@ -158,7 +158,7 @@ body {
     padding-top: 5vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color: green;
+    background-color: rgb(230, 235, 230);
     font-family: Arial, Helvetica, sans-serifs;
 }
 
@@ -208,7 +208,7 @@ body {
 .nossos-serviços {
     width: 100%;
     height: fit-content;
-    background-color: rgb(4, 99, 7);
+    background-color: rgb(230, 235, 230);
     padding-top: 5vh;
 }
 
@@ -290,4 +290,90 @@ body {
     scale: 1.05;
     text-shadow: 0 0 6px -0.01vw rgb(62, 39, 35);
     transition: 100ms ease-in-out;
+}
+
+.venda {
+    background-color: rgb(230, 235, 230);
+    color: white;
+    padding-top: 4vh;
+    display: grid;
+    place-items: center;
+    padding-bottom: 2vh;
+}
+
+.h4-venda-handle {
+    background-color: rgb(16, 56, 20);
+    border-radius: 20px;
+    box-shadow: 0 3vh 10px -0.5vw green;
+}
+
+.h4-venda {
+    font-size: 4.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vh 2vw 1vh 2vw;
+}
+
+.detalhes-handle-venda {
+    margin-top: 5vh;
+    background-color: rgb(16, 56, 20);
+    border-radius: 20px;
+}
+
+.detalhes-handle-venda:hover {
+    box-shadow: 0 3vh 15px -0.5vw green;
+    transform: translate(0,-1vh);
+}
+
+.h4-subtitle-venda {
+    margin-top: 5vh;
+    font-size: 2vw;
+    margin-right: 20vw;
+    text-shadow: 0 10px 7px rgb(16, 56, 20);
+    padding-left: 2vw
+}
+
+.venda ul {
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3vh;
+}
+
+.venda ul li {
+    font-size: 2vw;
+    list-style-position: inside;
+}
+
+.venda ul li:hover {
+    scale: 1.02;
+    text-shadow: 0 5px 4px rgb(16, 56, 20);
+    transition: 250ms ease-in-out;
+}
+
+.diferenciais {
+    display: grid;
+    place-items: center;
+    padding-top: 5vh;
+    background-color: rgb(230, 235, 230);
+    color: white;
+}
+
+.h4-diferenciais-handle {
+    background-color: rgb(0, 77, 38);
+}
+
+.ul-diferenciais-handle {
+    
+}
+
+.h4-diferenciais {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+}
+
+.diferenciais ul li {
+    list-style-type: "✔";
+    color: white;
 }
