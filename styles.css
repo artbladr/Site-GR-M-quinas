@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color:rgb(230, 235, 230);
     width: 100%;
 }
 
@@ -80,7 +80,6 @@ body {
     width: 30vw;
     height: fit-content;
     border-radius: 20px;
-    box-shadow: 0 0 30px 0.1px rgba(0, 255, 0, 0.7);
     justify-self: left;
     margin-left: 3vw;
     margin-bottom: 15vh;
@@ -88,7 +87,7 @@ body {
 
 .atendimento:hover {
     transition: 250ms ease-in-out;
-    box-shadow: 0 0 30px 1px rgba(0, 255, 0, 1);
+    box-shadow: 0 0 30px -10px rgba(0, 255, 0, 1);
 }
 
 .especificações {
@@ -96,13 +95,12 @@ body {
     width: 30vw;
     height: fit-content;
     border-radius: 20px;
-    box-shadow: 0 0 30px 0.1px rgba(0, 255, 0, 0.7);
 }
 
 .especificações:hover {
     transform: translate(-0.7vw, 0);
     transition: 250ms ease-in-out;
-    box-shadow: 0 0 30px 3px rgba(0, 255, 0, 1);
+    box-shadow: 0 0 30px -3px rgba(0, 255, 0, 1);
 }
 
 .p-specify-atendimento {
@@ -134,24 +132,27 @@ body {
 
 .iframe-grmaquinas:hover {
     transform: translate(-0.7vw, 0);
-    box-shadow: 0 0 25px 0.05px white;
+    box-shadow: 0 0 25px -8px white;
     transition: 250ms ease-in-out;
     z-index: 1;
 }
 
 .specify-1:hover {
     color: yellow;
-    font-size: 2.05vw
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .specify-2:hover {
     color: yellow;
-    font-size: 2.05vw
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .specify-3:hover {
     color: yellow;
-    font-size: 2.04vw
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .quem-somos {
@@ -159,7 +160,6 @@ body {
     padding-top: 5vh;
     padding-bottom: 5vh;
     background-color: rgb(230, 235, 230);
-    font-family: Arial, Helvetica, sans-serifs;
 }
 
 .qs-h3-handle {
@@ -168,7 +168,7 @@ body {
     background-color: rgb(4, 99, 7);
     border-radius: 20px;
     margin: 0 auto;
-    box-shadow: 0 2vh 6px -0.01vw rgb(62, 39, 35);
+    box-shadow: 0 2vh 10px -7px rgb(62, 39, 35);
 }
 
 .qs-h3 {
@@ -195,7 +195,7 @@ body {
 
 .qs-grid-element:hover {
     transform: translate(0, -1vh);
-    box-shadow: 0 2vh 6px -0.01vw rgb(62, 39, 35);
+    box-shadow: 0 2vh 10px -7px rgb(62, 39, 35);
 }
 
 .p-qs {
@@ -218,11 +218,10 @@ body {
     background-color: green;
     border-radius: 20px;
     margin: 0 auto;
-    box-shadow: 0 2vh 6px -0.01vw rgb(62, 39, 35);
+    box-shadow: 0 2vh 10px -7px rgb(62, 39, 35);
 }
 
 .nossos-serviços-title {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 5vw;
     padding: 1vh 2vw 1vh 2vw;
     color: white;
@@ -247,7 +246,7 @@ body {
 }
 
 .sv-sec:hover {
-    box-shadow: 0 2vh 6px -0.01vw rgb(62, 39, 35);
+    box-shadow: 0 2vh 10px -7px rgb(62, 39, 35);
     transform: translate(0, -1vh);
 }
 
@@ -304,12 +303,11 @@ body {
 .h4-venda-handle {
     background-color: rgb(16, 56, 20);
     border-radius: 20px;
-    box-shadow: 0 3vh 10px -0.5vw green;
+    box-shadow: 0 3vh 10px -15px green;
 }
 
 .h4-venda {
     font-size: 4.5vw;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 1vh 2vw 1vh 2vw;
 }
 
@@ -320,7 +318,7 @@ body {
 }
 
 .detalhes-handle-venda:hover {
-    box-shadow: 0 3vh 15px -0.5vw green;
+    box-shadow: 0 3vh 10px -15px green;
     transform: translate(0,-1vh);
 }
 
@@ -349,7 +347,7 @@ body {
 .venda ul li:hover {
     scale: 1.02;
     text-shadow: 0 5px 4px rgb(16, 56, 20);
-    transition: 250ms ease-in-out;
+    transition: 100ms ease-in-out;
 }
 
 .diferenciais {
@@ -364,7 +362,7 @@ body {
 .h4-diferenciais-handle {
     background-color: rgb(0, 77, 38);
     border-radius: 20px;
-    box-shadow: 0 3vh 10px -0.5vw green;
+    box-shadow: 0 3vh 10px -16px green;
 }
 
 .ul-diferenciais-handle {
@@ -376,7 +374,7 @@ body {
 }
 
 .ul-diferenciais-handle:hover {
-    box-shadow: 0 3vh 10px -0.5vw green;
+    box-shadow: 0 3vh 10px -12px green;
     transform: translate(0, -1vh);
 }
 
@@ -388,7 +386,6 @@ body {
 }
 
 .h4-diferenciais {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 4vw;
     padding: 1vh 2vw 1vh 2vw;
 }
@@ -419,6 +416,7 @@ body {
     margin: 0 auto;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 3vh 10px -15px green;
 }
 
 .galeria-h4 {
@@ -462,6 +460,11 @@ body {
     border-width: 0.1vw;
     border-color: rgb(219, 237, 253);
     border-style: solid;
+}
+
+.image-galeria-compressor-handle img:hover {
+    transform: scale(1.075);
+    margin-bottom: 1vh;
 }
 
 .image-galeria-compressor-handle p {
@@ -531,6 +534,11 @@ body {
     border-radius: 10px;
 }
 
+.image-galeria-gas-handle img:hover {
+    transform: scale(1.05);
+    margin-bottom: 2vh;
+}
+
 .img8 {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -567,8 +575,17 @@ body {
     border-radius: 15px;
 }
 
+.image-galeria-proteção-handle img:hover {
+    transform: scale(1.05);
+    margin-bottom: 1.3vh;
+}
+
 .galeria-limpeza {
     margin-top: 3vh;
+}
+
+.galeria-limpeza img:hover {
+    transform: scale(1.07);
 }
 
 .limpeza-grid {
@@ -604,10 +621,6 @@ body {
     border-radius: 15px;
     row-gap: 3vh;
 
-}
-
-.virar-img {
-    transform: rotate(90deg);
 }
 
 .aumentar {
@@ -662,6 +675,7 @@ body {
     height: fit-content;
     border-radius: 10px;
     margin: 0 auto;
+    box-shadow: 0 3vh 10px -15px green;
 }
 
 .avaliação {
@@ -672,6 +686,12 @@ body {
     margin-left: 5vw;
     margin-top: 2vh;
     margin-right: 5vw;
+}
+
+.avaliação:hover {
+    transform: scale(1.02);
+    margin-top: 1.2vh;
+    margin-bottom: 1.2vh;
 }
 
 .avaliação p {
@@ -716,4 +736,66 @@ body {
 .orçamento-grid a:hover {
     text-decoration: underline;
     transition: 100ms ease-in-out;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    margin-top: 3vh;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+}
+
+.footer-div {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    width: 70vw;
+    height: fit-content; 
+    display: grid;
+    grid-template-columns: 1fr 0.05fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#f1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 20px;
+}
+
+#f2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#f3 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#f4 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+#f5 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#f6 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+#f7 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+#f8 {
+    grid-column: 2/3;
+    grid-row: 3/7;
+    background-color: white;
+    width: 5%;
 }
