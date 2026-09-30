@@ -806,6 +806,24 @@ footer {
         height: 100px;
     }
 
+    .specify-1:hover {
+        color: yellow;
+        font-size: 13px;
+        text-decoration: underline;
+    }
+
+    .specify-2:hover {
+        color: yellow;
+        font-size: 13px;
+        text-decoration: underline;
+    }
+
+    .specify-3:hover {
+        color: yellow;
+        font-size: 13px;
+        text-decoration: underline;
+    }
+
     .navigation h1 {
         font-size: 35px;
     }
@@ -1022,4 +1040,162 @@ footer {
         grid-column: 2/3;
         grid-row: 5/6;
     }
+
+    .qs-h3-handle {
+        border-radius: 15px;
+    }
+
+    .image-galeria-gas-handle {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.2fr 1fr 0.2fr;
+        place-items: center;
+    }
+
+    .image-galeria-gas-handle img {
+        width: 70%;
+    }
+
+    .img7 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .img8 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .gal-p7 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .gal-p8 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .img9 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .img10 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .gal-p9 {
+        grid-column: 1/3;
+        grid-row: 4/5;
+        margin: 0;
+    }
+
+    .galeria-proteção-grid img {
+        width: 40vw;
+    }
+
+    .limpeza-grid {
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 570px) {
+    .introduction-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .especificações {
+        grid-column: 1/2;
+        margin-bottom: 3vh;
+    }
+
+    .iframe-container {
+        grid-row: 1/2;
+    }
+
+    .atendimento {
+        margin-left: 50px;
+    }
+
+    .atendimento p {
+        font-size: 12px;
+    }
+
+    .limpeza-grid {
+        width: fit-content;
+    }
+
+    .div-limpeza {
+        width: 48vw;
+    }
+
+    .footer-div {
+        column-gap: 10px;
+        row-gap: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .atendimento {
+        width: 180px;
+    }
+
+    .especificações {
+        width: 200px;
+    }
+
+    .atendimento p {
+        font-size: 13px; 
+    }
+
+    .especificações a {
+        font-size: 13px;
+    }
+
+    .iframe-container iframe{
+        height: 150px;
+    }
+
+    .qs-grid-element p {
+        text-align: left;
+    }
+
+    .serviços-geladeira {
+        grid-column: 1/4;
+    }
+
+    .serviços-maquina {
+        grid-column: 4/7;
+    }
+
+    .serviços-grid {
+        column-gap: 10px;
+    }
+
+    .image-galeria-compressor-handle img {
+        width: 90%;
+    }
+
+    .div-limpeza {
+        width: 50vw;
+        grid-template-rows: auto auto auto;
+    }
+
+    .div-img-handle-galeria {
+        width: 80%;
+    }
+
+    .div-img-handle-galeria img {
+        width: 55%;
+    }
+
+    .aumentar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+
 }
