@@ -1115,6 +1115,11 @@ footer {
         grid-row: 1/2;
     }
 
+    .iframe-container iframe {
+        width: 90%;
+        margin-right: 20px;
+    }
+
     .atendimento {
         margin-left: 50px;
     }
@@ -1194,8 +1199,313 @@ footer {
     .aumentar {
         width: 100%;
     }
+
+    .atendimento {
+        margin-left: 4vw;
+    }
+
+    .serviços-grid {
+        grid-template-columns: 1fr 0.2fr 0.25fr 0.25fr 0.25fr 0.25fr 0.2fr 1fr;
+    }
+
+    .serviços-geladeira {
+        grid-column: 1/5;
+    }
+
+    .serviços-maquina {
+        grid-column: 5/9;
+    }
+
+    .serviços-especiais {
+        grid-column: 2/8;
+    }
+
+    #f2, #f3, #f4, #f5, #f6, #f7, #f8 {
+        font-size: 12px;
+    }
+
+    .qs-h3 {
+        font-size: 25px;
+    }
+
+    .nossos-serviços-title {
+        font-size: 25px;
+    }
+
+    .h4-venda {
+        font-size: 25px;
+    }
+
+    .h4-diferenciais {
+        font-size: 25px;
+    }
+
+    .galeria-h4 {
+        font-size: 25px;
+    }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
+    .galeria-compressor-grid {
+        margin-top: 3vh;
+    }
 
+    .h4-venda-handle {
+        border-radius: 10px;
+    }
+
+    .qs-h3-handle {
+        border-radius: 10px;
+    }
+
+    .nossos-serviços-title-handle {
+        border-radius: 10px;
+    }
+
+    .h4-diferenciais-handle {
+        border-radius: 10px;
+    }
+
+    .galeria-h4-handle {
+        border-radius: 10px;
+    }
+
+    .avaliações-h5-handle {
+        border-radius: 10px;
+    }
+
+    .orçamento-grid a {
+        font-size: 14px;
+    }
+
+    .avaliação p {
+        font-size: 13px;
+    }
+
+    .image-galeria-compressor-handle img{
+        width: 100%;
+    }
+
+    .serviços-grid h4 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .especificações {
+        margin-left: 20px;
+    }
+
+    .navigation h2{
+        font-size: 17px;
+    }
+
+    #f1 {
+        grid-column: 1/4;
+    }
+
+    .atendimento {
+        border-radius: 12px;
+    }
+
+    .especificações {
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sv-sec ul li {
+        font-size: 14px;
+    }
+
+    .detalhes-handle-venda p,
+    .detalhes-handle-venda ul li{
+        font-size: 16px;
+    }
+
+    .ul-diferenciais-handle ul li {
+        font-size: 14px;
+    }
+
+    .atendimento p {
+        font-size: 14px;
+        padding-left: 13px;
+    }
+
+    .especificações a {
+        padding: 10px;
+    }
+
+    .qs-grid-element p {
+        font-size: 16px;
+    }
+
+    .serviços-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        place-items: center;
+    }
+
+    .sv-sec {
+        grid-column: 1/2;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .sv-sec ul li {
+        font-size: 18px;
+        padding: 0 10px
+    }
+
+    .quem-somos {
+        padding-bottom: 0;
+    }
+
+    .introduction-grid {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr;
+        place-items:initial;
+    }
+
+    .introduction-grid div {
+        grid-column: 1/2;
+        margin: 0;
+        justify-self: end;
+    }
+
+    .iframe-container iframe {
+        width: 200px;
+        height: 150px;
+        margin-right: 10px;
+    }
+
+    .introduction-grid .atendimento {
+        grid-row: 1/2;
+        margin-right: 10px;
+    }
+
+    .introduction-grid .especificações {
+        grid-row: 2/3;
+        margin-right: 10px;
+    }
+
+    .iframe-container {
+        grid-row: 3/4;
+    }
+}
+
+@media (max-width: 400px) {
+    .orçamento-grid a {
+        font-size: 12px;
+    }
+
+    .navigation h2 {
+        font-size: 16px;
+    }
+
+    .image-galeria-compressor-handle {
+        width: 90%;
+    }
+
+    .footer-div{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    #f2, #f3, #f4, #f5, #f6, #f7 {
+        font-size: 11px;
+    }
+
+    .atendimento p {
+        font-size: 11px;
+    }
+
+    .especificações a {
+        font-size: 11px;
+        padding-right: 0;
+    }
+
+    .especificações {
+        width: 50%;
+    }
+
+    .iframe-container iframe{
+        width: 50%;
+        height: 150px;
+        min-width: 158px;
+    }
+
+    .introduction-grid .iframe-container {
+        width: 158px;
+        justify-self: end;
+        margin-right: 10px;
+    }
+
+    .image-galeria-gas-handle img{
+        width: 80%;
+    }
+
+    .sv-sec ul li {
+        font-size: 16.5px;
+    }
+}
+
+@media (max-width: 370px) {
+    .ul-diferenciais-handle ul li {
+        font-size: 12.5px;
+    }
+
+    .detalhes-handle-venda p,
+    .detalhes-handle-venda ul li {
+        font-size: 14px;
+    }
+
+    .detalhes-handle-venda p {
+        margin-left: 10px;
+    }
+
+    .qs-grid-element p {
+        font-size: 14px;
+    }
+
+    .navigation h2 {
+        font-size: 14px;
+    }
+
+    .navigation h1 {
+        font-size: 30px;
+    }
+
+    .navigation {
+        height: 90px;
+    }
+    
+    .introduction {
+        margin-top: 14vh;
+    }
+
+    .qs-grid-element p {
+        padding: 15px 21px;
+    }
+}
+
+@media (max-width: 345px) {
+    .sv-sec ul li {
+        font-size: 15px;
+    }
+
+    .orçamento-grid a {
+        font-size: 11px;
+    }
+
+    .qs-grid-element p {
+        font-size: 12px;
+    }
+
+    .ul-diferenciais-handle ul li {
+        font-size: 12px;
+    }
+
+    .navigation h2 {
+        font-size: 13px;
+    }
 }
