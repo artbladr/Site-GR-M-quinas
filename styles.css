@@ -1149,7 +1149,7 @@ footer {
         row-gap: 5px;
     }
 
-    .navigation h2 {
+    body .navigation h2 {
         font-size: 11px;
     }
 
