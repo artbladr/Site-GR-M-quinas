@@ -814,10 +814,6 @@ footer {
         height: 100px;
     }
 
-    body nav.navigation h2.subtitle {
-        font-size: 8px;
-    }
-
     .specify-1:hover {
         color: yellow;
         font-size: 13px;
@@ -1116,6 +1112,10 @@ footer {
     .introduction-grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+
+    body nav.navigation h2.subtitle {
+        font-size: 10px;
     }
 
     .especificações {
