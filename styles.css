@@ -1515,10 +1515,8 @@ footer {
     .navigation h2 {
         font-size: 13px;
     }
-}
 
-@media (max-width: 320px) {
-    .navigation h2 {
+        .navigation h2 {
         font-size: 11px;
     }
 
