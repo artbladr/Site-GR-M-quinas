@@ -81,6 +81,7 @@ body {
     grid-template-rows: 1fr 1fr;
     place-items: center;
     gap: 3vw;
+    margin-top: 1vh;
 }
 
 .atendimento {
@@ -983,6 +984,10 @@ footer {
     .h4-diferenciais-handle {
         width: fit-content;
         height: fit-content;
+    }
+
+    .introduction {
+        background-image: url(./img/frente-loja-2.jpg);
     }
 
     .h4-diferenciais {
