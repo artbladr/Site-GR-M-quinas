@@ -1,4 +1,3 @@
-
 .oswald-titlefont {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -981,6 +980,21 @@ footer {
 }
 
 @media (max-width: 620px) {
+    .orçamento-grid a {
+        text-decoration: underline;
+    }
+
+    .quem-somos-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 20px;
+        row-gap: 10px;
+    }
+
+    .qs-grid-3 {
+        grid-column: 1/2;
+    }
+
     .h4-diferenciais-handle {
         width: fit-content;
         height: fit-content;
@@ -1366,6 +1380,10 @@ footer {
 }
 
 @media (max-width: 450px) {
+    .avaliações h5 {
+        font-size: 20px;
+    }
+
     .sv-sec ul li {
         font-size: 14px;
     }
@@ -1560,5 +1578,28 @@ footer {
 
     .navigation h2 {
         font-size: 11px;
+    }
+}
+
+@media (max-width: 300px) {
+    .detalhes-handle-venda p,
+    .detalhes-handle-venda ul li {
+        font-size: 12px;
+    }
+
+    .sv-sec ul li{
+        font-size: 13px;
+    }
+
+    .ul-diferenciais-handle ul li{
+        font-size: 11px;
+    }
+
+    .ul-diferenciais-handle ul {
+        padding-bottom: 10px;
+    }
+
+    .orçamento-grid {
+        max-width: 90%;
     }
 }
