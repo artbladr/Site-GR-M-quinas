@@ -991,6 +991,10 @@ footer {
         row-gap: 10px;
     }
 
+    .qs-grid-element {
+        min-width: 80%;
+    }
+
     .qs-grid-3 {
         grid-column: 1/2;
     }
@@ -1592,7 +1596,7 @@ footer {
     }
 
     .ul-diferenciais-handle ul li{
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .ul-diferenciais-handle ul {
